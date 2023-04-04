@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "191937777564",
+    "project_id": "authpart-691e4",
+    "storage_bucket": "authpart-691e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191937777564:android:3694e903584b862339c259",
+        "android_client_info": {
+          "package_name": "com.example.modernlogintute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191937777564-srg891olree90oljv2hnjsd0gboj6pbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB94PKQrEzOz81pLXRXyx6jyatvBxrZZik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191937777564-srg891olree90oljv2hnjsd0gboj6pbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
