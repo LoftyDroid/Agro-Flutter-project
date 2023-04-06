@@ -5,7 +5,7 @@ import 'package:modernlogintute/components/my_textfield.dart';
 import 'package:modernlogintute/components/square_tile.dart';
 
 class RegisterPage extends StatefulWidget {
-  final Function()? onTap;
+  final Function() onTap;
   const RegisterPage({super.key, required this.onTap});
 
   @override
@@ -149,7 +149,7 @@ class RegisterPageState extends State<RegisterPage> {
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10.0),
                         child: Text(
-                          'Or continue with',
+                          'Or',
                           style: TextStyle(color: Colors.grey[700]),
                         ),
                       ),
@@ -190,8 +190,10 @@ class RegisterPageState extends State<RegisterPage> {
                       style: TextStyle(color: Colors.grey[700]),
                     ),
                     const SizedBox(width: 4),
-                    GestureDetector(
-                      onTap: Widget.onTap,
+                    InkWell(
+                      onTap: () {
+                        widget.onTap();
+                      },
                       child: const Text(
                         'Login now',
                         style: TextStyle(
