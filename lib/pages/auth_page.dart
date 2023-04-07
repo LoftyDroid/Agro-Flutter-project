@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart'
     show BuildContext, Scaffold, StatelessWidget, StreamBuilder, Widget;
-import 'Login_or_register_page.dart';
-import 'home_page.dart';
+import 'package:modernlogintute/pages/Login_or_register_page.dart';
+import 'package:modernlogintute/pages/home_screen.dart';
 
 class AuthPage extends StatelessWidget {
   const AuthPage({super.key});
@@ -15,7 +15,7 @@ class AuthPage extends StatelessWidget {
       builder: (context, snapshot) {
         // user is logged in
         if (snapshot.hasData) {
-          return const HomePage();
+          return HomeScreen();
         }
 
         //user is NOT logged in
