@@ -6,7 +6,24 @@ A Flutter installation is required to run this project. To install Flutter, visi
 
 Download the project.
 
- ``` git clone https://github.com/LoftyDroid/Agro-Flutter-project.git  ```
+```bash
+git clone https://github.com/LoftyDroid/Agro-Flutter-project.git
+```
+
+Run the below command inside the project directory to install necessary packages.
+```bash
+flutter pub get
+```
+To run the project in debug mode 
+```bash
+flutter run
+```
+
+To generate a release build
+```bash
+flutter build apk
+```
+Locate the `app-release.apk` file from the directory `build/app/outputs/flutter-apk/` and install in your Android smartphone or emulator to use.
 
 ## Tracks used
 Agriculture :- Since farmers are facing a lot of issues and there is protest going on which has worsened the situation so we decided to come up with a smart solution to the problem by including features like Rent tools to the Mandi which will surely propel the growth of farmers.
