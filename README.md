@@ -47,3 +47,5 @@ Agriculture :- Since farmers are facing a lot of issues and there is protest goi
 
 ## Proposed add on features
  In News feature we didn't get any API which would provide news solely related to Agro industry so we are working on that.
+
+## 😀 If you liked the app, Please give it a ⭐ and fork the repository. 🤚🏻
